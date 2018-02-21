@@ -36,7 +36,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "fog", ">= 1.28.0"
   s.add_development_dependency "mini_magick", ">= 3.6.0"
   if RUBY_ENGINE != 'jruby'
-    s.add_development_dependency "rmagick"
   end
   s.add_development_dependency "timecop"
   s.add_development_dependency "generator_spec", ">= 0.9.1"
